@@ -1,4 +1,6 @@
+import { Phone } from "lucide-react";
 import { Link } from "react-router";
+import Button from "@ui/Button";
 
 function Header() {
   return (
@@ -41,6 +43,12 @@ function Header() {
               Contacto
             </Link>
           </nav>
+
+          {/* Botón de llamada */}
+          <Button variant="yellow">
+            <Phone className="w-4 h-4 mr-2" />
+            Llamar Ahora
+          </Button>
         </div>
       </div>
     </header>
