@@ -1,9 +1,7 @@
-// src/section/HeroSection.jsx
-
 import { ArrowRight, Shield } from "lucide-react";
 import Button from "@ui/button";
 
-function HeroSection() {
+function Hero() {
   return (
     <section className="relative bg-black overflow-hidden min-h-screen flex items-center">
       {/* Formas geométricas de fondo */}
@@ -135,4 +133,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Hero;
