@@ -1,6 +1,7 @@
 import Header from "@layout/Header";
 import Hero from "@sections/Hero";
 import Features from "@sections/Features";
+import Products from "../sections/Products";
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <Header />
       <Hero />
       <Features />
+      <Products />
     </div>
   );
 }
